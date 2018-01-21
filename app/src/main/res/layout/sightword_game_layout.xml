@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="start"
+            android:text="@string/text_right"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="end"
+            android:text="@string/text_wrong"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small.Inverse" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+        <TextView
+            android:id="@+id/textWrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:gravity="end"
+            android:text="0"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33" />
+
+        <ImageView
+            android:id="@+id/imageSpeak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:maxWidth="100dp"
+            android:minHeight="100dp"
+            app:srcCompat="@drawable/ic_volume_up_black_36dp" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Directions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/text_directions"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnChoice1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight=".33"
+            android:background="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnChoice2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight=".33"
+            android:background="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btnChoice3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight=".33"
+            android:background="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33"
+            android:text="@string/btn_settings" />
+
+        <Button
+            android:id="@+id/btnGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".33" />
+    </LinearLayout>
+
+</LinearLayout>

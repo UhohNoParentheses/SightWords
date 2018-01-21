@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Sight Words</string>
+    <string name="text_right">Right Answers</string>
+    <string name="text_wrong">Wrong Answers</string>
+    <string name="text_directions">Select one of the three below that best matches. Press the speaker to hear the word again.</string>
+    <string name="text_wordadd">Add/Delete Words:</string>
+    <string name="text_child_name">Your name here</string>
+    <string name="text_voice_pitch">Voice Pitch:</string>
+    <string name="text_voice_speed">Voice Speed:</string>
+
+    <string name="btn_settings">Settings...</string>
+    <string name="btn_stop">Stop Game</string>
+    <string name="btn_start">Start Game</string>
+    <string name="btn_level">Level...</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_delete">Delete All</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_test">Test</string>
+    <string name="btn_save">Save</string>
+
+
+    <string name="click_speaker">Please click speaker to hear next word before making a choice</string>
+    <string name="six_words_min">Sorry, I need 6 words or more to work, go to settings and add more</string>
+    <string name="test_message">This is a test</string>
+
+    <string name="score_0to49">Better luck next time, </string>
+    <string name="score_50to74">Good job, </string>
+    <string name="score_75to89">You did great, </string>
+    <string name="score_90to100">Awesome job, </string>
+    <string name="end_game">, See you later</string>
+
+    <string-array name="correct_answers">
+        <item>Correct</item>
+        <item>Thats Right</item>
+        <item>Good Job</item>
+        <item>Awesome</item>
+    </string-array>
+
+    <string-array name="incorrect_answers">
+        <item>Sorry</item>
+        <item>Incorrect</item>
+        <item>Try again</item>
+        <item>Keep Trying</item>
+    </string-array>
+
+    <string name="password">112388</string>
+</resources>
